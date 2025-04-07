@@ -19,9 +19,9 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <h1>Shanu S</h1>
-      <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open"/>
+      <img src={menu_open} onClick={openMenu} alt="menu_open" className="nav-mob-open"/>
       <ul ref={menuRef} className="nav-menu">
-        <img src={menu_close} onClick={closeMenu} alt=""  className="nav-mob-close" />
+        <img src={menu_close} onClick={closeMenu} alt="menu_close"  className="nav-mob-close" />
         <li><AnchorLink className='anchor-link' offset={0} href='#home'><p onClick={() => setMenu("home")}>Home</p>{menu==="home"?<img src={underline}/>:<></>}</AnchorLink></li>
         <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={() => setMenu("about")}>About Me</p>{menu==="about"?<img src={underline}/>:<></>}</AnchorLink></li>
         <li><AnchorLink className='anchor-link' offset={50} href='#education'><p onClick={() => setMenu("education")}>Education</p>{menu==="education"?<img src={underline}/>:<></>}</AnchorLink></li>

@@ -1,14 +1,12 @@
 import React from 'react'
 import './Hero.css'
 import profile from '../../assets/profile.png'
-import linkedIn from '../../assets/linkedin.png'
-import github from '../../assets/github.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero = () => {
   return (
     <div id='home' className='hero'>
-       <img src={profile} alt="" height={250}  /> 
+       <img src={profile} alt="profile" height={250}  /> 
        <h1><span>I'm Shanu S,</span>Java FullStack Developer from Nagercoil</h1>
        <p>A passionate Java and Frontend developer eager to build seamless and dynamic web applications. </p>
        <div className="hero-action">
