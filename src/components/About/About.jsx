@@ -8,7 +8,6 @@ const About = () => {
     <div id='about' className='about'>
         <div className="about-title">
             <h1>About Me</h1>
-            <img src="" alt="" srcset="" />
         </div>
         <div className="about-sections">
             <div className="about-left">
@@ -26,11 +25,6 @@ const About = () => {
                     <div className="about-skill"><p>SpringBoot</p> <hr style={{width:"75%"}}/></div>
                     <div className="about-skill"><p>MySQL</p> <hr style={{width:"80%"}}/></div>
                 </div>
-            </div>
-        </div>
-        <div className="about-achievements">
-            <div className="about-achievement">
-                <h1></h1>
             </div>
         </div>
     </div>
