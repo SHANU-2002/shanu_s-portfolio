@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import profile from '../../assets/profile.png'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
        <p>A passionate Java and Frontend developer eager to build seamless and dynamic web applications. </p>
        <div className="hero-action">
         <div className="hero-connect">
-            <AnchorLink className='anchor-link'  href='#contact'>Connect with me</AnchorLink></div>
+            <a className='anchor-link'  href='#contact'>Connect with me</a></div>
         <div className="hero-resume">
         <a href='https://drive.google.com/file/d/1hcdtso4jxDhF12LDexyTduOMDqtfiD4X/view?usp=drive_link'>My Resume</a>
         </div>
